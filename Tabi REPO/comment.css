@@ -1,0 +1,144 @@
+.comment-card {
+  background: #681a63;
+  background: -moz-linear-gradient(top, #681a63 0%, #3c1c65 62%, #312060 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #681a63 0%,
+    #3c1c65 62%,
+    #312060 100%
+  );
+  background: linear-gradient(to bottom, #681a63 0%, #3c1c65 62%, #312060 100%);
+  outline: 1px solid white;
+  padding: 10px;
+  margin-top: 2cm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3cm;
+  font-size: 15px;
+  width: 40%;
+}
+
+.comment-color {
+  color: white;
+}
+
+.comment-form-group-label {
+  margin-top: 6px;
+  margin-bottom: 1px;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.comment-form-button {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+  border: 1px solid white;
+  margin-top: 0.75em;
+  margin-right: 1em;
+  border-radius: 50rem;
+}
+.comment-has-error {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: red;
+}
+.comment-main-container {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  overflow-x: hidden;
+  background: -webkit-linear-gradient(
+    top,
+    #681a639c 0%,
+    #3c1c65a5 62%,
+    #312060ba 100%
+  );
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.comment-table-container {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 10px;
+  box-shadow: 0 0.4rem 0.8rem #0005;
+}
+.table,
+.table td,
+.table th {
+  border: none;
+}
+
+.comment-table-hover,
+th,
+td {
+  padding: 1rem !important;
+  color: rgb(220, 220, 220) !important;
+}
+.comment-table-body tr:nth-child(even) {
+  background-color: #0000000b;
+}
+
+section.comment-table-header {
+  width: 100%;
+  text-align: center;
+  padding: 0.6rem 0 1.5rem;
+  font-weight: 600;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 25px;
+}
+.comment-card-modal {
+  background: #681a63;
+  background: -moz-linear-gradient(top, #681a63 0%, #3c1c65 62%, #312060 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #681a63 0%,
+    #3c1c65 62%,
+    #312060 100%
+  );
+  background: linear-gradient(to bottom, #681a63 0%, #3c1c65 62%, #312060 100%);
+  outline: 1px solid white;
+  padding: 10px;
+  margin-top: 2cm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3cm;
+  font-size: 15px;
+  width: 40%;
+}
+
+.comment-modal-table {
+  position: relative;
+  background-color: #0b1727;
+  width: 150%;
+  max-height: 76vh;
+}
+
+.comment-modal-body-style {
+  width: 100%;
+  height: 100%;
+  background: #681a63;
+  background: -moz-linear-gradient(top, #681a63 0%, #3c1c65 62%, #312060 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #681a63 0%,
+    #3c1c65 62%,
+    #312060 100%
+  );
+  background: linear-gradient(to bottom, #681a63 0%, #3c1c65 62%, #312060 100%);
+  outline: 1px solid white;
+  padding: 10px;
+  margin-top: 2cm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3cm;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
